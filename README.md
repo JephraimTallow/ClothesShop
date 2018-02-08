@@ -21,3 +21,5 @@ Logging - must be implemented. Try / catch blocks should certainly be logged or 
 Error handling - approach to be determined. Should all errors be caught and logged, should the error be allowed to propagate? A strategy needs to be decided.
 
 CRUDTest - the URLConnection section is identical apart from the URL string. This information should be refactored to allow it to be shared rather than duplicated in each test.
+
+Screenshot location - this is currently set using a linux file style. This should be changed to suit any system type.
